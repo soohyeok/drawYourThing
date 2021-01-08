@@ -1,2 +1,2 @@
 # drawYourThing
-drawMyThing, skribbl.io inspired drawing &amp; guessing game
+Realtime Drawing Game built with SocketIO, Gulp, and Node inspired by drawmything and skribbl.io
