@@ -12,4 +12,6 @@ app.get("/", (req, res) => res.render("home"));
 
 const handleListening = () => console.log(`Server started at ${PORT}`);
 
-app.listen(PORT, handleListening);
+const server = app.listen(PORT, handleListening);
+
+const io = socketIO(server);
