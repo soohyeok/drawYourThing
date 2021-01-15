@@ -14,4 +14,4 @@ const handleListening = () => console.log(`Server started at ${PORT}`);
 
 const server = app.listen(PORT, handleListening);
 
-const io = socketIO(server);
+const io = socketIO.listen(server);
